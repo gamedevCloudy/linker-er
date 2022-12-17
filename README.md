@@ -1,9 +1,8 @@
-# linker-er
- Linktree Alternative
+# linker-er: Linktree Alternative
 
 ## Link Tree is for pople who can't code. 
 
-# I made my own!
+## I made my own!
 
 Notes:
 - I know this misses a lot of feautres like Analytics
