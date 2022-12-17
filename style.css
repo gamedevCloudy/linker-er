@@ -1,90 +1,165 @@
-.pfp{
-    width: 100px;
-    height: auto;
-    margin: auto;
-    border-radius: 50px;
-    padding: auto;
+.pfp {
+  width: 100px;
+  height: auto;
+  margin: auto;
+  border-radius: 50px;
+  padding: auto;
 }
 
-.linker{
-    text-align: center;
-    width: 90%;
-    margin: auto;
+.linker {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
 
+mark {
+  background-color: #e8defc;
 }
-mark{
-    background-color: #e8defc;
+
+body {
+  background-color: #f2f2f2;
 }
-body{
-    background-color: #f2f2f2;
+
+footer {
+  background-color: #f2f2f2;
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
-footer{
-    background-color: #f2f2f2;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
+
 button {
-    margin: auto;
-    width: 70%;
-    height: 56px;
-    background-color: #9CAF88; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 15px;
-    transition: all .8s ease;
-  }
-.btn {
-    margin-left: 90%;
-    width: 40px;
-    height: 40px;
-    background-color: #dfdfdf;
-    border: black;
-    color: white;
-    padding: 12px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 20px;
-    transition: all .25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
-  }
-
-button:hover{
-    background-color: #ccccff; 
-    transform: scale(1.02);/* Green */
+  margin: auto;
+  width: 70%;
+  height: 56px;
+  background-color: #9CAF88;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+  transition: all .8s ease;
 }
 
+.btn {
+  margin-left: 90%;
+  width: 40px;
+  height: 40px;
+  background-color: #dfdfdf;
+  border: black;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: all .25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+
+button:hover {
+  background-color: #ccccff;
+  transform: scale(1.02);
+  /* Green */
+}
 
 /* Tooltip text */
 .btn .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-   
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.btn:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/* chnaged below This */
+.fade,
+.copiedtext {
+  margin-inline: 45.5%;
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.771);
+  color: white;
+  display: flex;
+  width: 5%;
+  font-size: 1.2em;
+  padding-inline: 15px;
+  border-radius: 15px;
+  justify-content: center;
+}
+.fade {
+  animation: fade 3s ease 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
   }
   
-  /* Show the tooltip text when you mouse over the tooltip container */
-  .btn:hover .tooltiptext {
-    visibility: visible;
+  50% {
+    opacity: 1;
   }
 
-   /* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-     button, .linker {
-      width: 100; /* The width is 100%, when the viewport is 800px or smaller */
-      
-    }
+  100% {
+    opacity: 0;
   }
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button img {
+  width: 40px;
+}
+.btnImg1 {
+  width: 40px;
+}
+.btnImg2 {
+  width: 30px;
+  visibility: hidden;
+}
+a {
+  text-decoration:none ;
+}
+button:hover .btnImg2 {
+  visibility: visible;
+  opacity: 0.8;
+}
+body {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+button {
+  margin-top : 30px
+}
+footer{
+  margin-top: 50px;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  
+  button,
+  .linker {
+    width: 100;
+    /* The width is 100%, when the viewport is 800px or smaller */
+
+  }
+}
