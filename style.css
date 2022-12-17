@@ -1,14 +1,15 @@
 .pfp{
-    width: 175px;
+    width: 100px;
     height: auto;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 50px;
+    padding: auto;
 }
 
 .linker{
 
     text-align: center;
-    width: 60%;
+    width: 95%;
     margin: auto;
 
 }
@@ -25,8 +26,9 @@ footer{
     text-align: center;
 }
 button {
-    width: 512px;
-    height: 64px;
+    margin: auto;
+    width: 95%;
+    height: 58px;
     background-color: #fcacbf; /* Green */
     border: none;
     color: white;
@@ -35,7 +37,22 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 15px;
+    transition: all .8s ease;
+  }
+.btn {
+    margin-left: 90%;
+    width: 40px;
+    height: 40px;
+    background-color: #d0d0d0; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
     transition: all .8s ease;
   }
 
