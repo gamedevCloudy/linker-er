@@ -1,2 +1,2 @@
 # linker-er
- Linktree Althernative
+ Linktree Alternative

@@ -7,9 +7,8 @@
 }
 
 .linker{
-
     text-align: center;
-    width: 95%;
+    width: 90%;
     margin: auto;
 
 }
@@ -21,15 +20,15 @@ body{
 }
 footer{
     background-color: #f2f2f2;
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: center;
 }
 button {
     margin: auto;
-    width: 95%;
-    height: 58px;
-    background-color: #fcacbf; /* Green */
+    width: 70%;
+    height: 56px;
+    background-color: #9CAF88; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -44,8 +43,8 @@ button {
     margin-left: 90%;
     width: 40px;
     height: 40px;
-    background-color: #d0d0d0; /* Green */
-    border: none;
+    background-color: #dfdfdf;
+    border: black;
     color: white;
     padding: 12px 12px;
     text-align: center;
@@ -53,9 +52,39 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius: 20px;
-    transition: all .8s ease;
+    transition: all .25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
   }
 
 button:hover{
-    background-color: #ccccff; /* Green */
+    background-color: #ccccff; 
+    transform: scale(1.02);/* Green */
 }
+
+
+/* Tooltip text */
+.btn .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .btn:hover .tooltiptext {
+    visibility: visible;
+  }
+
+   /* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+     button, .linker {
+      width: 100; /* The width is 100%, when the viewport is 800px or smaller */
+      
+    }
+  }
