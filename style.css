@@ -1,11 +1,6 @@
-@media screen and (max-width: 800px) {
-     button{
-      width: 100; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-  }
 .pfp{
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
     margin: auto;
     border-radius: 50px;
     padding: auto;
@@ -18,14 +13,14 @@
 }
 
 mark{
-    background-color: #d2ebd8;
-    color: #222831;
-    font-family: 'Inter', thin;
-    padding: 5px;
+  background-color: #d2ebd8;
+  color: #222831;
+  font-family: 'Inter', thin;
+  padding: 5px;
 }
 
 body{
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 footer{
@@ -34,9 +29,9 @@ footer{
     margin: auto;
     margin-top: 50px;
     text-align: center;
-}
-
-button {
+  }
+  
+  button {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 65%;
@@ -52,7 +47,7 @@ button {
     border-radius: 15px;
     transition: all .25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
   }
-.btn {
+  .btn {
     margin-left: 90%;
     width: 40px;
     height: 40px;
@@ -69,15 +64,15 @@ button {
     display: flex;
     flex-direction: row-reverse;
   }
-
-button:hover{
+  
+  button:hover{
     color: #d2ebd8; 
     transform: scale(1.02);/* Green */
-}
+  }
 
 
-/* Tooltip text */
-.btn .tooltiptext {
+  /* Tooltip text */
+  .btn .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: #222831;
@@ -85,7 +80,7 @@ button:hover{
     text-align: center;
     padding: 5px 0px;
     border-radius: 6px;
-   
+    
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
@@ -95,5 +90,10 @@ button:hover{
   .btn:hover .tooltiptext {
     visibility: visible;
   }
-
-   /* Use a media query to add a breakpoint at 800px: */
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+       button{
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+    }
