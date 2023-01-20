@@ -1,13 +1,28 @@
-# linker-er: Linktree Alternative
+<div align=center>
 
-## Link Tree is for pople who can't code. 
+# linker-er 🔗
+## Linktree Alternative
 
-## I made my own!
+### A fun side project to make a simple link tree alternative.
 
-Notes:
+<br>
+
+[![Hits](https://hits.sh/github.com/gamedevCloudy/linker-er.svg)](https://hits.sh/github.com/gamedevCloudy/linker-er)
+
+![Web](https://img.shields.io/badge/-web-blueviolet.svg?style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white)  ![Javascript](https://img.shields.io/badge/-JavaScript-F7DF1E.svg?style=flat-square&logo=javascript&logoColor=white) 
+<br>
+
+</div>
+
+## Notes:
+---
 - I know this misses a lot of feautres like Analytics
 - Images
-- Other perks of linktree
+- Cool Background customisability
+- themes
 
-But, I will learn to code them myself. !
+## Contributing
+---
+Feel free to add any of the above missing features or your own!
 
