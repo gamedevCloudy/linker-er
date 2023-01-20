@@ -20,7 +20,7 @@
 ## Desktop:
 ![Desktop](.images/Desktop.jpg)
 ## Mobile:
-![Mobile](.images/Mobile.jpg)
+<img src=".images/Mobile.jpg" alt="Mobile" width="256px">
 
 </div>
 
